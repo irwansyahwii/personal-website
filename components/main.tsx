@@ -1,13 +1,19 @@
 'use client';
 
+import { MyAI } from "./my-ai";
+
+
+
 export const Main = ()=>{
-  return (
+  return (		
     <>
+			
 			{/* <!-- Header --> */}
 			<header id="header">
 				<div className="inner">
 					<a href="#" className="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>I am Irwansyah</strong>, an AI Engineer<br /></h1>
+					<MyAI></MyAI>
 				</div>
 		{/* <!-- Footer --> */}
 			<footer id="footer" >
