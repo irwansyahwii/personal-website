@@ -1,8 +1,9 @@
-import Image from "next/image";
-import { Main } from "@/components/main";
+import { ClientSide } from "@/components/client-side";
+
+
 
 export default function Home() {
   return (
-    <Main></Main>
+    <ClientSide></ClientSide>
   );
 }
